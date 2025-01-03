@@ -61,11 +61,13 @@ bool Stack::isEmpty(){
         return true;
     }
     else{
+        cout << "The stack is't empty ";
         return false;
     }
 }
 bool Stack::isfull(){
     if(this->top == capacity-1){
+        cout << "Stack is full..";
         return true;
     }
     else{
