@@ -24,7 +24,7 @@ public:
 };
 void Stack::push(int data){
     if (this->top == (capacity-1)){
-        cout << "Array is overflow : "<<endl;
+        cout << "stack is overflow : "<<endl;
         return;
     }
     
@@ -61,7 +61,7 @@ bool Stack::isEmpty(){
         return true;
     }
     else{
-        cout << "The stack is't empty ";
+        cout << "The stack is't  empty ";
         return false;
     }
 }
@@ -125,8 +125,6 @@ int main(){
                 s1.size();
                 break;
             }
-            default :
-                cout << "invalid choice ";
         }
 
     }while(choice != 0);
